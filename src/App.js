@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import FirstHook from './components/FirstHook';
 import FormsHook from './components/FormsHook';
+import ArrayHook from './components/ArrayHook';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
      <h1> Hooks</h1>
      {/* <FirstHook/> */}
      <FormsHook/>  
+     <ArrayHook/>
         
     </div>
   );
